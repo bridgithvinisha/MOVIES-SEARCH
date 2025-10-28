@@ -1,0 +1,129 @@
+/* 🌟 General Styles */
+body {
+  background-color: #ffffff;
+  color: #222222;
+  margin: 0;
+  font-family: "Poppins", sans-serif;
+}
+
+/* 🌟 Navbar */
+.navbar {
+  background: #222222;
+  padding: 15px 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: white;
+}
+
+.navbar .logo {
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.navbar .nav-links button {
+  background: transparent;
+  color: white;
+  border: none;
+  margin-left: 20px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: color 0.2s;
+}
+
+.navbar .nav-links button:hover {
+  color: #ff5757;
+}
+
+/* 🌟 Search Section */
+.search {
+  display: flex;
+  justify-content: center;
+  margin: 20px 0;
+}
+
+.search input {
+  width: 300px;
+  padding: 10px;
+  border: 2px solid #ccc;
+  border-radius: 5px 0 0 5px;
+  outline: none;
+  font-size: 14px;
+}
+
+.search button {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 0 5px 5px 0;
+  background: #ff5757;
+  color: white;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+
+.search button:hover {
+  background: #ff2e2e;
+}
+
+/* 🌟 Movie Container */
+.container {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 20px;
+  padding: 20px;
+}
+
+/* 🌟 Movie Card */
+.movie {
+  text-align: center;
+  background: #f7f7f7;
+  border-radius: 10px;
+  padding: 10px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.movie:hover {
+  transform: scale(1.03);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+}
+
+.movie img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+.movie h3 {
+  color: #111;
+  margin-top: 10px;
+}
+
+.movie p {
+  color: #555;
+}
+
+/* 🌟 Buttons for Favourites */
+button {
+  margin-top: 8px;
+  background: #ff5757;
+  border: none;
+  padding: 8px 12px;
+  border-radius: 5px;
+  cursor: pointer;
+  color: white;
+  transition: background 0.2s;
+}
+
+button:hover {
+  background: #ff2e2e;
+}
+
+/* 🌟 Headings */
+h2 {
+  text-align: center;
+  color: #222;
+}
+
+h3 {
+  text-align: center;
+}
